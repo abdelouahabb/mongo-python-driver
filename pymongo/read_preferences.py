@@ -32,6 +32,7 @@ class ReadPreference:
     * All other modes allow queries to standalone servers, to the primary, or
       to secondaries.
 
+    //~pymongo.mongo_client.MongoClient is duplicated, is it an error?
     :class:`~pymongo.mongo_client.MongoClient` connected to a mongos, with a
     sharded cluster of replica sets:
 
